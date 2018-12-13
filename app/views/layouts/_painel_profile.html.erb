@@ -1,0 +1,17 @@
+<header class="container-fluid header_profile text-white font">
+    <div class="painel">
+        <header class="upper_header">
+		    <label class="upper_h2 font-logo"><%= link_to  "dinnerdash",  root_path, class: "link" %></label>
+            <span><label class="float-right pt-1"><%= link_to  "sair",  destroy_user_session_path, class: "link", method: "delete" %></label>
+            <label class="upper_header float-right pt-1"><%= link_to  "perfil",  edit_user_registration_path, class: "link" %></label></span>
+            <% if current_user.admin == true %>
+                <label class=" upper_header float-right pt-1"><%= link_to  "backoffice", categories_path, class: "ed text-warning" %></label>
+            <% end %>
+        </header>
+
+        <div class="lower_header fixed-bottom">
+            <h1 class="home_title"s>Seu perfil</h1>
+            <h3 class="home_subtitle">Atualize seus dados pessoais e senha.</h3>
+        </div>
+    </div>
+</header>

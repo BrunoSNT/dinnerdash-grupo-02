@@ -1,0 +1,45 @@
+// Place all the styles related to the Meals controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.header_backoffice{
+    height: 60vh;
+    width: 100vw;
+    background-image: url(helloquence-61189.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    margin: 0%;
+    min-width: 300px;
+    min-width: 300px;
+}
+
+.labels {
+    padding-top: 1em;
+    font-size: 1.3em;
+}
+
+.black {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    height: 65%;
+}
+.botoes_ref{
+    margin-right: 2em;
+    color: white;
+    width: 85%;
+    z-index: 0;
+}
+
+.nav_meal {
+    font-size: 1rem;
+    margin: 2px;
+    padding: 0;
+}
+.fot {
+    position: relative;
+    
+}

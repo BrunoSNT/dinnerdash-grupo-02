@@ -1,0 +1,174 @@
+// Place all the styles related to the Homes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.header{
+    height: 60vh;
+    width: 100%;
+    background-image: url(jay-wennington-2065.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    margin: 0%;
+    min-width: 300px;
+    min-width: 300px;
+    position: relative;
+}
+.margin-custom{
+    margin-left: 30%;
+}
+.margin-custom_om{
+    margin-left: 10%;
+}
+.margin-custom_om2{
+    margin-left: 30%;
+}
+.img_certa{
+  max-width:100%;
+  max-height: 40%;
+  min-height: 40%;
+}
+.clear {
+    clear:both;
+    line-height:0;
+}
+.content{   
+    height: 40%;
+    width: 100%;
+}
+
+.upper_header{
+    width: auto;
+    height: auto;
+    font-size: 1.2rem;
+    margin-right: 2%;
+    margin-left: 1%;
+}
+.upper_h2{
+    margin-bottom: 1%;
+}
+.lower_header{
+    left: 9%;
+    position: absolute;
+    width: 100%;
+}
+.painel{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.363);
+    overflow: hidden;
+    position: relative;
+    margin: 0%;
+}
+.small_logo {
+    font-size: 5vw;;      
+    position: relative;
+    background-size: 100% 135%;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 100%;
+}
+.img_root1 {
+    background-image: url(restaurant.jpeg);
+    background-size: 100% 122%;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 100%;
+}
+.bug{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.marg{
+    margin-bottom: 5%;
+}
+.title{
+bottom: 15%;
+}
+.home_title{
+    font-family: 'Quicksand', sans-serif;
+    font-size: calc(16px * 2vw); 
+}
+.home_subtitle{
+    font-family: 'Quicksand', sans-serif;
+    font-size: calc(8px + 1.1vw);
+}
+.font {
+    font-family: 'Quicksand', sans-serif;
+}
+.font-logo{
+    font-size: 24px;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.font-logo2{
+    font-size: 3em;
+    font-family: 'Cabin Sketch', cursive;
+}
+.cards {
+    position: relative;
+    word-wrap: break-all;
+    width: 240px;
+    height: 435px;
+    margin-right: 2.5%;
+    margin-bottom: 2em;
+
+}
+.contain {
+    align-items: space-evenly;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.category_name {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: black;
+}
+.description {
+    font-size: calc(7px * 1.5vw);
+}
+.meal_name {
+    background-color: (rgba(0, 0, 0, 0.35));
+    color: white;
+    width: 100%;
+    height: 10%;
+    padding-top: 6px;
+}
+.dark{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+
+}
+.espaco_name{
+    font-size: 1.08rem;
+    margin-left: 1%;
+}
+.margin_cart_text{
+    color: rgba(70, 70, 77, 0.863);
+    margin-bottom: 0;
+}
+.img_overlay_container{
+    position: relative ;
+    width: 100%;
+    height: 100%;
+}
+.over{
+    position: absolute;
+    top: 33.5%;
+    padding: 0;
+
+}
+
+.card_checkout_box{
+    width: 40%;
+    min-width: 30em;
+    max-width: 30em;
+    height: auto;
+}
+.button_size{
+    width: 100%;
+}
